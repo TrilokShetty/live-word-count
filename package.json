@@ -1,0 +1,36 @@
+{
+  "name": "live-word-count",
+  "version": "1.0.0",
+  "description": "A real-time word counting utility for text input",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "word-count",
+    "text-analysis",
+    "counter",
+    "live-count",
+    "text-processing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrilokShetty/live-word-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TrilokShetty/live-word-count/issues"
+  },
+  "homepage": "https://github.com/TrilokShetty/live-word-count#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
