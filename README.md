@@ -1,7 +1,3 @@
-Got it — here’s the clean, professional version of your **README.md** with no emojis and using `import text from 'live-word-count'` as requested:
-
----
-
 # live-word-count
 
 A real-time word and text statistics utility. Provides functions to count words, characters, lines, paragraphs, estimate reading time, average word length, and sentence count.
@@ -112,6 +108,3 @@ text.sentenceCount("Hi! How are you? Fine."); // 3
 
 MIT
 
----
-
-Let me know if you want this saved as a `README.md` file directly or published as an npm package.
