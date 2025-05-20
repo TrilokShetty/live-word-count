@@ -1,11 +1,15 @@
 {
   "name": "live-word-count",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A real-time word counting utility for text input",
-  "main": "index.js",
+  "main": "index.cjs",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs"
+  },
   "scripts": {
     "test": "jest",
-    "start": "node index.js",
+    "start": "node index.cjs",
     "lint": "eslint ."
   },
   "keywords": [
@@ -29,7 +33,8 @@
     "node": ">=14.0.0"
   },
   "files": [
-    "index.js",
+    "index.cjs",
+    "index.mjs",
     "README.md",
     "LICENSE"
   ]

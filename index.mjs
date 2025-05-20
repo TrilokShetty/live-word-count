@@ -1,3 +1,5 @@
+
+
 export function wordcount(text) {
     const words = text.split(/\s+/).filter(word => word.length > 0);
     return words.length;
@@ -21,11 +23,10 @@ export function readingTime(text, wordsPerMinute = 200) {
     return Math.ceil(minutes);
 }
 
-
 export function averageWordLength(text) {
     const words = text.split(/\s+/).filter(word => word.length > 0);
     if (words.length === 0) return 0;
-    
+
     const totalLength = words.reduce((sum, word) => sum + word.length, 0);
     return totalLength / words.length;
 }
@@ -34,7 +35,6 @@ export function sentenceCount(text) {
     return text.split(/[.!?]+/).filter(sentence => sentence.trim().length > 0).length;
 }
 
-// Export all functions as default
 export default {
     wordcount,
     charcount,
@@ -44,7 +44,3 @@ export default {
     averageWordLength,
     sentenceCount
 };
-
-
-
-
