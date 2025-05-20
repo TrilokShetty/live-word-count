@@ -1,6 +1,6 @@
 {
   "name": "live-word-count",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A real-time word counting utility for text input",
   "main": "index.cjs",
   "exports": {
